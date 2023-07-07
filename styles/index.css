@@ -3,28 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-.verde{
-    border: 1px solid green;
-}
-
-.box1{
-    margin: 200px 20px;
-}
-
-.box2{
-    background-color: aqua;
-}
-
-.box1 h1 {
-    width: fit-content;
-    background: red;
-    padding: 20px 40px;
-    border-radius: 12px;
-    color: white;
-}
-
-.box2 h2{
-    width: fit-content;
-    margin: 0 auto;
-    border: 2px solid rgba(99, 53, 89,.3);
-}
