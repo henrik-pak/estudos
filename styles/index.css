@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+:root{
+--font-roboto: 'roboto', sans-serif;
+--cor-primaria: rgb(59, 177, 203);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}   
+/* Display flex */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    align-items: center;
+    box-shadow: 0px 10px 13px -4px rgba(0,0,0,0.75);
+    ;
+}
+
+.cabecalho > a {
+    text-decoration: none;
+    color: rgb(10, 217, 244);
+    background-color: black ;
+    padding: .2rem .7rem;
+    border-radius: 10px 0px 10px 0px;
+    font-family: var(--font-roboto);
+}
+
+.cabecalho > nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.cabecalho > nav > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-roboto);
+    color: black;
+}
+.cabecalho > nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.346);
+}
+#hero {
+    padding-top: 40px;
+}
+section {
+    min-height: 100vh;
 }
