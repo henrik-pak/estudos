@@ -32,7 +32,7 @@
     <!-- a tag main representa onde ficará todo o conteúdo principal do site -->
     <main>
       <section id="hero">
-        <div>
+        <div class="conteudo">
           <h1>Henrik Santos</h1>
           <h2>desenvolvedor web front-end</h2>
           <p>
@@ -45,13 +45,20 @@
         </div>
       </section>
       <section id="about">
-        <h2>sobre mim</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
-          ullam ab molestiae blanditiis deserunt! Eligendi provident magnam id,
-          quam sit totam exercitationem. Dolores, vel maiores sequi laudantium
-          nulla dignissimos corporis?
-        </p>
+        <div class="about-conteudo">
+          <h2>sobre mim</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+            ullam ab molestiae blanditiis deserunt! Eligendi provident magnam
+            id, quam sit totam exercitationem. Dolores, vel maiores sequi
+            laudantium nulla dignissimos corporis?
+          </p>
+        </div>
+        <img
+          class="imagem-perfil"
+          src="./images/perfil-henrik.jpeg"
+          alt="minhaimagem"
+        />
       </section>
       <section id="contacts">
         <ul>
@@ -62,8 +69,10 @@
       </section>
     </main>
     <!-- footer é o rodapé do site -->
-    <footer>
-      <p>&copy;2023 <span>Henrik Santos desenvolvedor</span></p>
+    <footer class="rodape">
+      <p class="text-footer">
+        &copy;2023 <span class="span-footer">Henrik Santos desenvolvedor</span>
+      </p>
     </footer>
   </body>
 </html>
